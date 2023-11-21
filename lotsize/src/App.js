@@ -1,11 +1,10 @@
-// import Winrate from "./component/Winrate";
-
-import LotsizeCalculator from "./component/LotsizeCalculator";
+import './App.css';
+import Lotsizecalculator from './components/Lotsizecalculator';
 
 function App() {
   return (
     <div className="App">
-      <LotsizeCalculator/>
+      <Lotsizecalculator/>
     </div>
   );
 }
